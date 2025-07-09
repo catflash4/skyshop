@@ -28,6 +28,6 @@ public class ShopController {
 
     @GetMapping("/search")
     public String getSearchResult(@RequestParam("sub") String sub) {
-        return searchService.search(sub).toString();
+        return searchService.search(sub).toString() ;
     }
 }

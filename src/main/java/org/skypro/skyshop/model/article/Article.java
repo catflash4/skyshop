@@ -62,6 +62,6 @@ public class Article implements Searchable, Comparable<Searchable> {
 
     @Override
     public int hashCode() {
-        return Objects.hash(name, text);
+        return Objects.hash(name, text) ;
     }
 }

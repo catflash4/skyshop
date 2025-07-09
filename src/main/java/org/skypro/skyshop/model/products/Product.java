@@ -82,6 +82,6 @@ public abstract class Product implements Searchable, Comparable<Searchable> {
 
     @Override
     public UUID getId() {
-        return id;
+        return id ;
     }
 }
